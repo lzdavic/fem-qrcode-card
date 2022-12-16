@@ -8,9 +8,13 @@
 body {
     background-color: var(--Light-gray);
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 400;
-    display: flex;
+}
+main {
+    display: grid;
+    place-items: center;
+    height: 100vh; /* it will not align vertically without */
 }
 
 .card {
@@ -19,11 +23,11 @@ body {
     align-items: center;
     background-color: var(--White);
     width: 20em;
-    height: 50%;
-    padding: 1em;
+    height: 32em;
+    padding: 1em ;
     border-radius: 1.5em;
-    margin: 20vh auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0;
 }
 
 .qr-code {
@@ -49,6 +53,12 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 375px) {
-    
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
