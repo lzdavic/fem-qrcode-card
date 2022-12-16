@@ -1,33 +1,34 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - QR code component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-### The challenge
+### Screenshots
 
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
-
-### Screenshot
-
-![Desktop Layout](https://i.imgur.com/mtYAiZA.png)
-![Mobile Layout](https://i.imgur.com/wyjARNp.png)
-
+<p align="center"><img src="https://i.imgur.com/KLtic6h.png"></p>
+<p align="center"><img src="https://i.imgur.com/3KDmdI2.png"></p>
 
 ### Links
 
-- Live Site URL: [Link](https://fem-product-preview-card-component-lzdavic.vercel.app)
+- Live Site URL: [Vercel](https://qrcode-card-lzdavic.vercel.app)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
 
 ## Author
 
